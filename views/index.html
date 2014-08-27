@@ -5,10 +5,22 @@
     <title></title>
 </head>
 <body>
-<form action="/user" method="post">
-    <label for="name">NAME</label>
-    <input type="text" name="name">
-<input type="submit">
+<!-- <form action="/user" method="post"> -->
+<!--     <label for="name">NAME</label> -->
+<!--     <input type="text" name="name"> -->
+<!-- <input type="submit"> -->
+<form action="/login" method="get">
+  <div>
+    <label>Username:</label>
+    <input type="text" name="username"/>
+  </div>
+  <div>
+    <label>Password:</label>
+    <input type="password" name="password"/>
+  </div>
+  <div>
+    <input type="submit" value="Log In"/>
+  </div>
 </form>
 
 </body>
